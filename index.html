@@ -12,28 +12,107 @@
     <body>
         <div id="header">
             <div class="container">
-                <!-- <div class="column">
-                        <h1 class="header">A Week In <br> My Life</h1>
-                        <p class="normaltext">As a student, swimmer, <br> lifeguard, and web developer.</p>
-                    </div>
-                    <div class="column">
-                        <img src="blob.png" height="350px" width="350px" alt="blob">
-                    </div>     
-                </div> -->
-
-                <!-- TO DO: 
-                -Create classes so we can get rid of these floats when resposnsive.
-                -bring the spacing in more
-                -try out an image in the spot -->
-
                 <div class="img-text-float">
                     <h1 class="header">A Week In <br> My Life</h1>
                     <p class="normaltext">As a student, swimmer, <br> lifeguard, and web developer.</p>
                 </div>
                 <img src="scu.png" alt="blob" class="img-img-float">
-
-            
             </div>
+        </div>
+
+        <div id="schedule">
+            <div class="container">
+                <h2 class="subheader" style="color: black">Schedule</h2>
+
+                <!-- TO DO: 
+                -figure out how to make canvas responsive
+                -fill rest of dates
+             -->
+
+             <!-- MONDAY -->
+                <p class="normaltext">Monday:</p>
+
+                <svg width="600px" height="50px" id="canvas">
+                    <!-- Sleep -->
+                    <rect x="0px" y="0px" height="30px" width="170px" rx="5px" fill="#0091AD" class="svg-content" preserveAspectRatio="none"></rect>
+                    <!-- Class -->
+                    <rect x="180px" y="0px" height="30px" width="150px" rx="5px" fill="#1780A1" class="svg-content" preserveAspectRatio="none"></rect>
+                    <!-- Eat -->
+                    <rect x="340px" y="0px" height="30px" width="30px" rx="5px" fill="#2E6F95" class="svg-content" preserveAspectRatio="none"></rect>
+                    <!-- Study -->
+                    <rect x="380px" y="0px" height="30px" width="50px" rx="5px" fill="#455E89" class="svg-content" preserveAspectRatio="none"></rect>
+                    <!-- Social -->
+                    <rect x="440px" y="0px" height="30px" width="30px" rx="5px" fill="#5C4D7D" class="svg-content" preserveAspectRatio="none"></rect>
+                    <!-- Swim -->
+                    <rect x="480px" y="0px" height="30px" width="30px" rx="5px" fill="#892B64" class="svg-content" preserveAspectRatio="none"></rect>
+                </svg>
+
+            <!-- TUESDAY -->
+                <p class="normaltext">Tuesday:</p>
+
+                <svg width="600px" height="50px" id="canvas">
+                    <!-- Sleep -->
+                    <rect x="0px" y="0px" height="30px" width="150px" rx="5px" fill="#0091AD" class="svg-content"></rect>
+                    <!-- Class -->
+                    <rect x="160px" y="0px" height="30px" width="40px" rx="5px" fill="#1780A1" class="svg-content"></rect>
+                    <!-- Eat -->
+                    <rect x="210px" y="0px" height="30px" width="30px" rx="5px" fill="#2E6F95" class="svg-content"></rect>
+                    <!-- Study -->
+                    <rect x="250px" y="0px" height="30px" width="90px" rx="5px" fill="#455E89" class="svg-content"></rect>
+                    <!-- Social -->
+                    <rect x="350px" y="0px" height="30px" width="80px" rx="5px" fill="#5C4D7D" class="svg-content"></rect>
+                    <!-- Swim -->
+                    <rect x="440px" y="0px" height="30px" width="30px" rx="5px" fill="#892B64" class="svg-content"></rect>
+                    <!-- Work -->
+                    <rect x="480px" y="0px" height="30px" width="60px" rx="5px" fill="#A01A58" class="svg-content"></rect>
+                </svg>
+
+
+
+            <!-- KEY -->
+
+            <svg width="600px" height="100px" id="canvas">
+                <!-- Sleep -->
+                <g>
+                    <rect x="0px" y="0px" height="30px" width="75px" rx="5px" fill="#0091AD" class="svg-content"></rect>
+                    <text x="10px" y="22px" font-family="Inter" font-size="20px">Sleep</text>
+                </g>    
+                <!-- Class -->
+                <g>
+                    <rect x="85px" y="0px" height="30px" width="75px" rx="5px" fill="#1780A1" class="svg-content"></rect>
+                    <text x="95px" y="22px" font-family="Inter" font-size="20px">Class</text>
+                </g>
+                <!-- Eat -->
+                <g>
+                    <rect x="170px" y="0px" height="30px" width="75px" rx="5px" fill="#2E6F95" class="svg-content"></rect>
+                    <text x="190px" y="22px" font-family="Inter" font-size="20px">Eat</text>
+                </g>
+                <!-- Study -->
+                <g>
+                    <rect x="255px" y="0px" height="30px" width="75px" rx="5px" fill="#455E89" class="svg-content"></rect>
+                    <text x="265px" y="22px" font-family="Inter" font-size="20px">Study</text>
+                </g>
+                <!-- Social -->
+                <g>
+                    <rect x="340px" y="0px" height="30px" width="75px" rx="5px" fill="#5C4D7D" class="svg-content"></rect>
+                    <text x="350" y="22px" font-family="Inter" font-size="20px">Social</text>
+                </g>
+                <!-- Swim -->
+                <g>
+                    <rect x="425px" y="0px" height="30px" width="75px" rx="5px" fill="#892B64" class="svg-content"></rect>
+                    <text x="435px" y="22px" font-family="Inter" font-size="20px">Swim</text>
+                </g>
+                <!-- Work -->
+                <g>
+                    <rect x="510px" y="0px" height="30px" width="75px" rx="5px" fill="#A01A58" class="svg-content"></rect>
+                    <text x="525px" y="22px" font-family="Inter" font-size="20px">Work</text>
+                </g>
+            </svg>
+
+
+
+            </div>
+
         </div>
     </body>
 

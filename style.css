@@ -19,6 +19,12 @@ body {
     margin-block-end: 0%;
 }
 
+.subheader {
+    font-size: 45px;
+    font-family: 'Allerta Stencil', sans-serif;
+    margin-block-end: 0%;
+}
+
 .normaltext {
     font-size: 22px;
 }
@@ -76,4 +82,20 @@ body {
     #header {
         height: 660px;
     }
+}
+
+/* Schedule */
+#canvas {
+    display: inline-block;
+	position: relative;
+	width: 100%;
+	vertical-align: middle; 
+	overflow: hidden; 
+}
+
+.svg-content {
+    display: inline-block;
+	position: absolute;
+	top: 0;
+	left: 0;
 }
