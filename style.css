@@ -105,13 +105,20 @@ body {
 /* Breakdown */
 #breakdown {
     width: 100%;
-    height: 600px;
+    height: 550px;
     background: linear-gradient(179.04deg, #FFFFFF 0.9%, rgba(255, 255, 255, 0.1) 99.25%);
     box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(20px);
     border-radius: 5px;
-    padding-left: 20px;
+    padding-left: 50px;
     padding-top: 5px;
+}
+
+/* Responsive */
+@media only screen and (max-width: 775px) {
+  #breakdown {
+    padding-left: 15px;
+  }
 }
 
 /* Log */
@@ -126,7 +133,11 @@ body {
     box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(20px);    
     border-radius: 5px;    
-    padding: 5px;
+    padding: 10px;
+  }
+
+  .grid-item:hover {
+    transform: scale(1.03);
   }
   
   .item1 {
