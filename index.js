@@ -43,7 +43,7 @@ const surveyJson = {
         elements: [{
             type: "radiogroup",
             name: "magnacarta",
-            title: "Which activity does Matthew work the most?",
+            title: "Which day does Matthew work the most?",
             choicesOrder: "random",
             choices: [
                 "Friday",
